@@ -7,23 +7,10 @@ This is Project 3 for the Udacity Full Stack Nanodegree. I was required to to bu
 ### Primary Features
 - [x] Designed to run in the command line
 - [x] Written using Python3
-- [x] Page adheres to HTML/CSS Formatting and Style Guidelines.
-- [x] Code is ready for personal review and neatly formatted.
-- [x] Portfolio meets the Seperation of Concerns and File Structure Specifications.
-- [x] A `README` file includes details of all the project.
-### Primary Features
-- [x] Dynamically generated from a Python data structure.
-- [x] Page presents movie title, box art and trailer link.
-- [x] Code is ready for personal review and neatly formatted.
-- [x] Page is error free.
-- [x] Code is ready for personal review and neatly formatted.
-- [x] Comments effectively explain longer code procedures.
-- [x] A `README` file includes details of all the steps required to successfully run the application.
+- [x] Code conforms to the PEP8 style recommendations.
+- [x] Connects to and queries an SQL Database
+- [x] A `README` file includes details of the project.
 
-### Extras
-- Uses Python to query IMDB API for movie information.
-- Includes a link to each movie's IMDB Page
-- Includes a link to the projects GitHub Repository
 
 ### Requirements
 This requires [psycopg2](http://initd.org/psycopg/) to run.
@@ -36,7 +23,7 @@ $ pip install psycopg2
 
 Connect to the Database:
 ```
-psql -d news
+$ psql -d news
 ```
 Create the Database Views required:
 ```
@@ -49,8 +36,7 @@ create view StatusCount as select cast(time as date), status, count(*) from log 
 ### How to run this project
  * Install [Python](https://www.python.org/) (Python 3 recommended)
  * Clone this repository `git clone https://github.com/grocer-of-despair/NanodegreeMovieDatabase`
- * Run `entertainment_centre.py` from the cloned project directory: `python entertainment_centre.py`
- * Enjoy Fresh Tomatoes
+ * Run `QueryNewsDatabase.py` from the cloned project directory: `python3 QueryNewsDatabase.py`
 
 ## License
 The contents of this repository are covered under the [GNU GENERAL PUBLIC LICENSE](LICENSE.txt).

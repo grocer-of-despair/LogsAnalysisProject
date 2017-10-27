@@ -2,7 +2,7 @@
 A Python programming to query a database for results
 
 ## Description
-This is Project 3 for the Udacity Full Stack Nanodegree. I was required to to build a reporting tool that queries a database to answer a series of questions.
+This is Project 3 for the Udacity Full Stack Nanodegree. I was required to to build a reporting tool that queries a database to answer a series of questions. It is run within a Virtual Machine.
 
 ### Primary Features
 - [x] Designed to run in the command line
